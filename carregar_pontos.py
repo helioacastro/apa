@@ -41,14 +41,31 @@ print(pontos_linha_55)
 pontos_linha_55.to_csv("pontos_linha_55.csv", sep=";", index=False, encoding="iso-8859-1")
 
 # Reduzir o dataset pontos_linha_55 a somente os 5 primeiros registros
-pontos_linha_55 = pontos_linha_55.head(5)
+#pontos_linha_55 = pontos_linha_55.head(5)
 
 # Adicionar colunas de latitude e longitude ao DataFrame pontos_linha_55
-#pontos_linha_55['latitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[1] if retorne_coordenada(x) else None)
-#pontos_linha_55['longitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[0] if retorne_coordenada(x) else None)
+pontos_linha_55['latitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[1] if retorne_coordenada(x) else None)
+pontos_linha_55['longitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[0] if retorne_coordenada(x) else None)
 
 print(pontos_linha_55)
 
+# Loop para ler cada registro e atribuir valores de latitude e longitude
+for index, row in pontos_linha_55.iterrows():
+    coordenadas = retorne_coordenada(row['nmPonto'])
+    print(row['nmPonto'])
+    print(coordenadas)
+    if coordenadas:
+        pontos_linha_55.at[index, 'latitude'] = coordenadas[1]
+        pontos_linha_55.at[index, 'longitude'] = coordenadas[0]
+    else:
+        pontos_linha_55.at[index, 'latitude'] = None
+        pontos_linha_55.at[index, 'longitude'] = None
+
+# Salvar o DataFrame atualizado em um arquivo CSV
+pontos_linha_55.to_csv("pontos_linha_55_com_coordenadas.csv", sep=";", index=False, encoding="iso-8859-1")
+
+
+'''
 # Exemplo de uso
 coordenadas = [
     retorne_coordenada("Rua Mario Agostinelli, 155"),  # São Paulo
@@ -57,4 +74,4 @@ coordenadas = [
 ]
 matriz_distancia = calcular_distancias(coordenadas)
 print(matriz_distancia)
-
+'''
