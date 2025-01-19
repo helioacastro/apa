@@ -33,6 +33,7 @@ def calcular_distancias(coordenadas):
 '''
 # Carregar o arquivo CSV em um DataFrame do pandas
 dfPontos = pd.read_csv("pontos.csv", sep=";", header=0, encoding="iso-8859-1")
+dfBairros = pd.read_csv("bairros.csv", sep=";", header=0, encoding="iso-8859-1")
 
 # Listar os pontos de embarque da fkLinha = 55, somente os campos fkLinha, nmPonto
 pontos_linha_55 = dfPontos[dfPontos['fkLinha'] == 55][['nmPonto']]
@@ -41,8 +42,6 @@ print(pontos_linha_55)
 # Salvar o DataFrame pontos_linha_55 em um arquivo CSV
 pontos_linha_55.to_csv("pontos_linha_55.csv", sep=";", index=False, encoding="iso-8859-1")
 '''
-
-
 pontos_linha_55 = pd.read_csv("pontos_linha_55.csv", sep=";", header=0, encoding="iso-8859-1")
 
 # Adicionar o endereço da Nuclep ao dataset pontos_linha_55
