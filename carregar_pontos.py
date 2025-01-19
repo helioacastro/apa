@@ -20,6 +20,7 @@ def calcular_distancias(coordenadas):
         "sources": [{"location": coord} for coord in coordenadas],
         "targets": [{"location": coord} for coord in coordenadas]
     }
+
     response = requests.post(url, json=payload)
     if response.status_code == 200:
         data = response.json()
@@ -29,7 +30,7 @@ def calcular_distancias(coordenadas):
                 distancias.append([item['distance'] for item in linha])
             return distancias
     return None
-
+'''
 # Carregar o arquivo CSV em um DataFrame do pandas
 dfPontos = pd.read_csv("pontos.csv", sep=";", header=0, encoding="iso-8859-1")
 
@@ -39,13 +40,14 @@ print(pontos_linha_55)
 
 # Salvar o DataFrame pontos_linha_55 em um arquivo CSV
 pontos_linha_55.to_csv("pontos_linha_55.csv", sep=";", index=False, encoding="iso-8859-1")
+'''
+
+
+pontos_linha_55 = pd.read_csv("pontos_linha_55.csv", sep=";", header=0, encoding="iso-8859-1")
+
 
 # Reduzir o dataset pontos_linha_55 a somente os 5 primeiros registros
-#pontos_linha_55 = pontos_linha_55.head(5)
-
-# Adicionar colunas de latitude e longitude ao DataFrame pontos_linha_55
-pontos_linha_55['latitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[1] if retorne_coordenada(x) else None)
-pontos_linha_55['longitude'] = pontos_linha_55['nmPonto'].apply(lambda x: retorne_coordenada(x)[0] if retorne_coordenada(x) else None)
+pontos_linha_55 = pontos_linha_55.head(5)
 
 print(pontos_linha_55)
 
@@ -65,6 +67,18 @@ for index, row in pontos_linha_55.iterrows():
 pontos_linha_55.to_csv("pontos_linha_55_com_coordenadas.csv", sep=";", index=False, encoding="iso-8859-1")
 
 
+#pontos_linha_55 = pd.read_csv("pontos_linha_55_com_coordenadas.csv", sep=";", header=0, encoding="iso-8859-1")
+
+# Reduzir o dataset pontos_linha_55 a somente os 5 primeiros registros
+#pontos_linha_55 = pontos_linha_55.head(3)
+
+# Montar um array de coordenadas com o par latitude e longitude vindo do dataset pontos_linha_55
+coordenadas = []
+for index, row in pontos_linha_55.iterrows():
+    if pd.notnull(row['longitude']) and pd.notnull(row['latitude']):
+        coordenadas.append([row['longitude'], row['latitude']])
+
+
 '''
 # Exemplo de uso
 coordenadas = [
@@ -72,6 +86,8 @@ coordenadas = [
     retorne_coordenada("Rua Vlaminck, 64"),  # Rio de Janeiro
     retorne_coordenada("Rua Conde de Leopoldina, 480")    # Brasil
 ]
+'''
+print(coordenadas)
+
 matriz_distancia = calcular_distancias(coordenadas)
 print(matriz_distancia)
-'''
