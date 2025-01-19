@@ -45,9 +45,18 @@ pontos_linha_55.to_csv("pontos_linha_55.csv", sep=";", index=False, encoding="is
 
 pontos_linha_55 = pd.read_csv("pontos_linha_55.csv", sep=";", header=0, encoding="iso-8859-1")
 
+# Adicionar o endereço da Nuclep ao dataset pontos_linha_55
+nuclep_endereco = "NUCLEP"
+
+# Criar um DataFrame com o endereço da Nuclep
+df_nuclep = pd.DataFrame({'nmPonto': [nuclep_endereco]})
+
+# Concatenar o DataFrame df_nuclep com pontos_linha_55
+pontos_linha_55 = pd.concat([df_nuclep, pontos_linha_55], ignore_index=True)
 
 # Reduzir o dataset pontos_linha_55 a somente os 5 primeiros registros
-pontos_linha_55 = pontos_linha_55.head(5)
+#pontos_linha_55 = pontos_linha_55.head(10)
+
 
 print(pontos_linha_55)
 
