@@ -20,19 +20,18 @@ void lst_imprime(Lista* lst);
 int lst_vazia(Lista* lst);
 Lista* busca(Lista* lst, int v);
 void lst_libera(Lista* lst);
-void MoveMenor(Lista* lst);
+int MoveMenor(Lista* lst);
 
 int main(void){
     Lista* lst;
     lst = lst_cria();
-    lst = lst_insere(lst, 10);
-    lst = lst_insere(lst, 21);
-    lst = lst_insere(lst, 4);
+    // A cada chamada insere um novo elemento no início da lista
     lst = lst_insere(lst, 13);
+    lst = lst_insere(lst, 4);
+    lst = lst_insere(lst, 21);
+    lst = lst_insere(lst, 10);
     lst_imprime(lst);
-
-
-
+    MoveMenor(lst);
     lst_libera(lst);
     return 0;
 }
@@ -72,15 +71,19 @@ void lst_libera(Lista* lst){
         p = t;
     }
 }
-void MoveMenor(Lista* lst){
+int MoveMenor(Lista* lst){
+    int menor=-1;
+
     if(lst == NULL || lst->prox == NULL){
         return 0; // Lista vazia ou com um elemento
     }
     Lista* p;
-    menor 
+    
     for(p=lst; p!=NULL; p=p->prox){
-        if(p->info == v){
-            return p;
+        if (menor == -1 || p->info < menor){
+            menor = p->info;
         }
+        printf("info = %d\n", p->info);
     }
+    printf("Menor = %d\n", menor);
 }
