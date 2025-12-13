@@ -20,6 +20,11 @@ Arv* abb_busca(Arv* a, int v);
 Arv* abb_insere(Arv* a, int v);
 Arv* abb_retira(Arv* r, int v);
 
+int main(void) {
+
+
+}
+
 Arv* abb_criar(void){
     return NULL;
 }
@@ -92,3 +97,4 @@ Arv* abb_retira(Arv* r, int v){
     }
     return r;
 }
+
