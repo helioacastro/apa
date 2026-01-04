@@ -1,0 +1,7 @@
+Algoritmo,Dataset,Tempo Médio (s),Desvio Padrão,Amostras,Min,Max
+A-Star,Dataset Sintetico Massivo,0.046900,0.003843,10,0.042000,0.055000
+A-Star,Dragon Age Origins (brc202d),0.014800,0.004077,10,0.012000,0.024000
+Dijkstra,Dataset Sintetico Massivo,0.872300,0.051461,10,0.840000,1.014000
+Dijkstra,Dragon Age Origins (brc202d),0.039700,0.004138,10,0.036000,0.050000
+Duan,Dataset Sintetico Massivo,0.218500,0.027314,10,0.206000,0.295000
+Duan,Dragon Age Origins (brc202d),0.482300,0.018571,10,0.463000,0.524000

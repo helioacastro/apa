@@ -1,0 +1,770 @@
+--- Dijkstra Execução 1 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.050000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 1.014000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 2 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.042000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.862000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 3 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.040000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.865000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 4 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.040000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.845000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 5 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.037000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.840000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 6 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.039000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.882000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 7 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.037000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.848000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 8 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.036000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.860000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 9 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.040000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.842000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- Dijkstra Execução 10 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (DIJKSTRA)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo carregado. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 5328
+TEMPO DE EXECUCAO: 0.036000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo carregado. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca Dijkstra...
+RESULTADO: Sucesso! Distancia Total: 65696750
+TEMPO DE EXECUCAO: 0.865000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Dijkstra concluido com sucesso.
+
+--- A-Star Execução 1 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.013000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.044000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 2 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.012000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.055000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 3 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.013000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.044000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 4 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.024000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.046000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 5 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.012000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.047000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 6 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.013000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.051000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 7 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.012000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.045000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 8 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.013000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.049000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 9 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.020000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.042000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- A-Star Execução 10 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (A*)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivos: brc202d_nodes.csv / brc202d_edges.csv...
+Grafo pronto. Nos: 61034 | Origem: 0 -> Destino: 61033
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 5328
+TEMPO DE EXECUCAO: 0.016000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivos: massivo_nodes.csv / massivo_edges.csv...
+Grafo pronto. Nos: 1000000 | Origem: 0 -> Destino: 999999
+Executando busca A*...
+RESULTADO: Sucesso! Custo Final: 100878997
+TEMPO DE EXECUCAO: 0.046000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark concluido com sucesso.
+
+--- Duan Execução 1 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2487 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.524000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50229 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.210000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 2 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2440 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.469000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50465 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.295000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 3 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2445 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.463000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50225 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.206000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 4 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2400 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.480000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50485 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.213000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 5 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2407 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.469000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50457 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.206000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 6 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2561 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.490000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50050 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.217000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 7 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2444 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.465000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50586 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.206000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 8 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2452 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.490000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50227 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.206000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 9 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2411 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.477000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 49968 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.219000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
+--- Duan Execução 10 ---
+============================================================
+INICIANDO BENCHMARK UNIFICADO (ALGORITMO DE DUAN)
+============================================================
+
+>>> PROCESSANDO: Dragon Age Origins (brc202d)
+Carregando arquivo: brc202d_edges.csv...
+Grafo pronto. Nos reais: 61034 | Origem: 0 -> Destino: 61033
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 2391 pivos selecionados.
+RESULTADO: Caminho nao encontrado.
+TEMPO DE EXECUCAO: 0.496000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+>>> PROCESSANDO: Dataset Sintetico Massivo
+Carregando arquivo: massivo_edges.csv...
+Grafo pronto. Nos reais: 1000000 | Origem: 0 -> Destino: 999999
+Executando Algoritmo de Duan (Pivots + Buckets)...
+   [FindPivots] 50207 pivos selecionados.
+RESULTADO: Sucesso! Distancia Final: 107080327
+TEMPO DE EXECUCAO: 0.207000 segundos
+Limpando memoria para o proximo teste...
+------------------------------------------------------------
+
+Benchmark de Duan concluido com sucesso.
+
